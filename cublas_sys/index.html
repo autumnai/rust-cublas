@@ -1,0 +1,2195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `cublas_sys` crate.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, cublas_sys">
+
+    <title>cublas_sys - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'></p><script>window.sidebarCurrent = {name: 'cublas_sys', ty: 'mod', relpath: '../'};</script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content mod">
+<h1 class='fqn'><span class='in-band'>Crate <a class='mod' href=''>cublas_sys</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-0' class='srclink' href='../src/cublas_sys/lib.rs.html#1-5' title='goto source code'>[src]</a></span></h1>
+<h2 id='structs' class='section-header'><a href="#structs">Structs</a></h2>
+<table>
+                    <tr class=' module-item'>
+                        <td><a class='struct' href='struct.Struct_Unnamed6.html'
+                               title='cublas_sys::Struct_Unnamed6'>Struct_Unnamed6</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='struct' href='struct.Struct_double2.html'
+                               title='cublas_sys::Struct_double2'>Struct_double2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='struct' href='struct.Struct_float2.html'
+                               title='cublas_sys::Struct_float2'>Struct_float2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                </table><h2 id='enums' class='section-header'><a href="#enums">Enums</a></h2>
+<table>
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.Enum_Unnamed1.html'
+                               title='cublas_sys::Enum_Unnamed1'>Enum_Unnamed1</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.Enum_Unnamed2.html'
+                               title='cublas_sys::Enum_Unnamed2'>Enum_Unnamed2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.Enum_Unnamed3.html'
+                               title='cublas_sys::Enum_Unnamed3'>Enum_Unnamed3</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.Enum_Unnamed4.html'
+                               title='cublas_sys::Enum_Unnamed4'>Enum_Unnamed4</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.Enum_Unnamed5.html'
+                               title='cublas_sys::Enum_Unnamed5'>Enum_Unnamed5</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.Enum_Unnamed6.html'
+                               title='cublas_sys::Enum_Unnamed6'>Enum_Unnamed6</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.Enum_Unnamed7.html'
+                               title='cublas_sys::Enum_Unnamed7'>Enum_Unnamed7</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.Enum_Unnamed8.html'
+                               title='cublas_sys::Enum_Unnamed8'>Enum_Unnamed8</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.Struct_CUstream_st.html'
+                               title='cublas_sys::Struct_CUstream_st'>Struct_CUstream_st</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.Struct_cublasContext.html'
+                               title='cublas_sys::Struct_cublasContext'>Struct_cublasContext</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.cublasAtomicsMode_t.html'
+                               title='cublas_sys::cublasAtomicsMode_t'>cublasAtomicsMode_t</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.cublasDataType_t.html'
+                               title='cublas_sys::cublasDataType_t'>cublasDataType_t</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.cublasDiagType_t.html'
+                               title='cublas_sys::cublasDiagType_t'>cublasDiagType_t</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.cublasFillMode_t.html'
+                               title='cublas_sys::cublasFillMode_t'>cublasFillMode_t</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.cublasOperation_t.html'
+                               title='cublas_sys::cublasOperation_t'>cublasOperation_t</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.cublasPointerMode_t.html'
+                               title='cublas_sys::cublasPointerMode_t'>cublasPointerMode_t</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.cublasSideMode_t.html'
+                               title='cublas_sys::cublasSideMode_t'>cublasSideMode_t</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='enum' href='enum.cublasStatus_t.html'
+                               title='cublas_sys::cublasStatus_t'>cublasStatus_t</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                </table><h2 id='functions' class='section-header'><a href="#functions">Functions</a></h2>
+<table>
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCaxpy_v2.html'
+                               title='cublas_sys::cublasCaxpy_v2'>cublasCaxpy_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCcopy_v2.html'
+                               title='cublas_sys::cublasCcopy_v2'>cublasCcopy_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCdgmm.html'
+                               title='cublas_sys::cublasCdgmm'>cublasCdgmm</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCdotc_v2.html'
+                               title='cublas_sys::cublasCdotc_v2'>cublasCdotc_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCdotu_v2.html'
+                               title='cublas_sys::cublasCdotu_v2'>cublasCdotu_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgbmv_v2.html'
+                               title='cublas_sys::cublasCgbmv_v2'>cublasCgbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgeam.html'
+                               title='cublas_sys::cublasCgeam'>cublasCgeam</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgelsBatched.html'
+                               title='cublas_sys::cublasCgelsBatched'>cublasCgelsBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgemmBatched.html'
+                               title='cublas_sys::cublasCgemmBatched'>cublasCgemmBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgemm_v2.html'
+                               title='cublas_sys::cublasCgemm_v2'>cublasCgemm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgemv_v2.html'
+                               title='cublas_sys::cublasCgemv_v2'>cublasCgemv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgeqrfBatched.html'
+                               title='cublas_sys::cublasCgeqrfBatched'>cublasCgeqrfBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgerc_v2.html'
+                               title='cublas_sys::cublasCgerc_v2'>cublasCgerc_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgeru_v2.html'
+                               title='cublas_sys::cublasCgeru_v2'>cublasCgeru_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgetrfBatched.html'
+                               title='cublas_sys::cublasCgetrfBatched'>cublasCgetrfBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgetriBatched.html'
+                               title='cublas_sys::cublasCgetriBatched'>cublasCgetriBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCgetrsBatched.html'
+                               title='cublas_sys::cublasCgetrsBatched'>cublasCgetrsBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasChbmv_v2.html'
+                               title='cublas_sys::cublasChbmv_v2'>cublasChbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasChemm_v2.html'
+                               title='cublas_sys::cublasChemm_v2'>cublasChemm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasChemv_v2.html'
+                               title='cublas_sys::cublasChemv_v2'>cublasChemv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCher2_v2.html'
+                               title='cublas_sys::cublasCher2_v2'>cublasCher2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCher2k_v2.html'
+                               title='cublas_sys::cublasCher2k_v2'>cublasCher2k_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCher_v2.html'
+                               title='cublas_sys::cublasCher_v2'>cublasCher_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCherk_v2.html'
+                               title='cublas_sys::cublasCherk_v2'>cublasCherk_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCherkx.html'
+                               title='cublas_sys::cublasCherkx'>cublasCherkx</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasChpmv_v2.html'
+                               title='cublas_sys::cublasChpmv_v2'>cublasChpmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasChpr2_v2.html'
+                               title='cublas_sys::cublasChpr2_v2'>cublasChpr2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasChpr_v2.html'
+                               title='cublas_sys::cublasChpr_v2'>cublasChpr_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCmatinvBatched.html'
+                               title='cublas_sys::cublasCmatinvBatched'>cublasCmatinvBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCreate_v2.html'
+                               title='cublas_sys::cublasCreate_v2'>cublasCreate_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCrot_v2.html'
+                               title='cublas_sys::cublasCrot_v2'>cublasCrot_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCrotg_v2.html'
+                               title='cublas_sys::cublasCrotg_v2'>cublasCrotg_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCscal_v2.html'
+                               title='cublas_sys::cublasCscal_v2'>cublasCscal_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCsrot_v2.html'
+                               title='cublas_sys::cublasCsrot_v2'>cublasCsrot_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCsscal_v2.html'
+                               title='cublas_sys::cublasCsscal_v2'>cublasCsscal_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCswap_v2.html'
+                               title='cublas_sys::cublasCswap_v2'>cublasCswap_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCsymm_v2.html'
+                               title='cublas_sys::cublasCsymm_v2'>cublasCsymm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCsymv_v2.html'
+                               title='cublas_sys::cublasCsymv_v2'>cublasCsymv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCsyr2_v2.html'
+                               title='cublas_sys::cublasCsyr2_v2'>cublasCsyr2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCsyr2k_v2.html'
+                               title='cublas_sys::cublasCsyr2k_v2'>cublasCsyr2k_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCsyr_v2.html'
+                               title='cublas_sys::cublasCsyr_v2'>cublasCsyr_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCsyrk_v2.html'
+                               title='cublas_sys::cublasCsyrk_v2'>cublasCsyrk_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCsyrkx.html'
+                               title='cublas_sys::cublasCsyrkx'>cublasCsyrkx</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCtbmv_v2.html'
+                               title='cublas_sys::cublasCtbmv_v2'>cublasCtbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCtbsv_v2.html'
+                               title='cublas_sys::cublasCtbsv_v2'>cublasCtbsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCtpmv_v2.html'
+                               title='cublas_sys::cublasCtpmv_v2'>cublasCtpmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCtpsv_v2.html'
+                               title='cublas_sys::cublasCtpsv_v2'>cublasCtpsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCtpttr.html'
+                               title='cublas_sys::cublasCtpttr'>cublasCtpttr</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCtrmm_v2.html'
+                               title='cublas_sys::cublasCtrmm_v2'>cublasCtrmm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCtrmv_v2.html'
+                               title='cublas_sys::cublasCtrmv_v2'>cublasCtrmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCtrsmBatched.html'
+                               title='cublas_sys::cublasCtrsmBatched'>cublasCtrsmBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCtrsm_v2.html'
+                               title='cublas_sys::cublasCtrsm_v2'>cublasCtrsm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCtrsv_v2.html'
+                               title='cublas_sys::cublasCtrsv_v2'>cublasCtrsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasCtrttp.html'
+                               title='cublas_sys::cublasCtrttp'>cublasCtrttp</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDasum_v2.html'
+                               title='cublas_sys::cublasDasum_v2'>cublasDasum_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDaxpy_v2.html'
+                               title='cublas_sys::cublasDaxpy_v2'>cublasDaxpy_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDcopy_v2.html'
+                               title='cublas_sys::cublasDcopy_v2'>cublasDcopy_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDdgmm.html'
+                               title='cublas_sys::cublasDdgmm'>cublasDdgmm</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDdot_v2.html'
+                               title='cublas_sys::cublasDdot_v2'>cublasDdot_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDestroy_v2.html'
+                               title='cublas_sys::cublasDestroy_v2'>cublasDestroy_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDgbmv_v2.html'
+                               title='cublas_sys::cublasDgbmv_v2'>cublasDgbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDgeam.html'
+                               title='cublas_sys::cublasDgeam'>cublasDgeam</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDgelsBatched.html'
+                               title='cublas_sys::cublasDgelsBatched'>cublasDgelsBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDgemmBatched.html'
+                               title='cublas_sys::cublasDgemmBatched'>cublasDgemmBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDgemm_v2.html'
+                               title='cublas_sys::cublasDgemm_v2'>cublasDgemm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDgemv_v2.html'
+                               title='cublas_sys::cublasDgemv_v2'>cublasDgemv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDgeqrfBatched.html'
+                               title='cublas_sys::cublasDgeqrfBatched'>cublasDgeqrfBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDger_v2.html'
+                               title='cublas_sys::cublasDger_v2'>cublasDger_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDgetrfBatched.html'
+                               title='cublas_sys::cublasDgetrfBatched'>cublasDgetrfBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDgetriBatched.html'
+                               title='cublas_sys::cublasDgetriBatched'>cublasDgetriBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDgetrsBatched.html'
+                               title='cublas_sys::cublasDgetrsBatched'>cublasDgetrsBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDmatinvBatched.html'
+                               title='cublas_sys::cublasDmatinvBatched'>cublasDmatinvBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDnrm2_v2.html'
+                               title='cublas_sys::cublasDnrm2_v2'>cublasDnrm2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDrot_v2.html'
+                               title='cublas_sys::cublasDrot_v2'>cublasDrot_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDrotg_v2.html'
+                               title='cublas_sys::cublasDrotg_v2'>cublasDrotg_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDrotm_v2.html'
+                               title='cublas_sys::cublasDrotm_v2'>cublasDrotm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDrotmg_v2.html'
+                               title='cublas_sys::cublasDrotmg_v2'>cublasDrotmg_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDsbmv_v2.html'
+                               title='cublas_sys::cublasDsbmv_v2'>cublasDsbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDscal_v2.html'
+                               title='cublas_sys::cublasDscal_v2'>cublasDscal_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDspmv_v2.html'
+                               title='cublas_sys::cublasDspmv_v2'>cublasDspmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDspr2_v2.html'
+                               title='cublas_sys::cublasDspr2_v2'>cublasDspr2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDspr_v2.html'
+                               title='cublas_sys::cublasDspr_v2'>cublasDspr_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDswap_v2.html'
+                               title='cublas_sys::cublasDswap_v2'>cublasDswap_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDsymm_v2.html'
+                               title='cublas_sys::cublasDsymm_v2'>cublasDsymm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDsymv_v2.html'
+                               title='cublas_sys::cublasDsymv_v2'>cublasDsymv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDsyr2_v2.html'
+                               title='cublas_sys::cublasDsyr2_v2'>cublasDsyr2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDsyr2k_v2.html'
+                               title='cublas_sys::cublasDsyr2k_v2'>cublasDsyr2k_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDsyr_v2.html'
+                               title='cublas_sys::cublasDsyr_v2'>cublasDsyr_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDsyrk_v2.html'
+                               title='cublas_sys::cublasDsyrk_v2'>cublasDsyrk_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDsyrkx.html'
+                               title='cublas_sys::cublasDsyrkx'>cublasDsyrkx</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDtbmv_v2.html'
+                               title='cublas_sys::cublasDtbmv_v2'>cublasDtbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDtbsv_v2.html'
+                               title='cublas_sys::cublasDtbsv_v2'>cublasDtbsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDtpmv_v2.html'
+                               title='cublas_sys::cublasDtpmv_v2'>cublasDtpmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDtpsv_v2.html'
+                               title='cublas_sys::cublasDtpsv_v2'>cublasDtpsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDtpttr.html'
+                               title='cublas_sys::cublasDtpttr'>cublasDtpttr</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDtrmm_v2.html'
+                               title='cublas_sys::cublasDtrmm_v2'>cublasDtrmm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDtrmv_v2.html'
+                               title='cublas_sys::cublasDtrmv_v2'>cublasDtrmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDtrsmBatched.html'
+                               title='cublas_sys::cublasDtrsmBatched'>cublasDtrsmBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDtrsm_v2.html'
+                               title='cublas_sys::cublasDtrsm_v2'>cublasDtrsm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDtrsv_v2.html'
+                               title='cublas_sys::cublasDtrsv_v2'>cublasDtrsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDtrttp.html'
+                               title='cublas_sys::cublasDtrttp'>cublasDtrttp</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDzasum_v2.html'
+                               title='cublas_sys::cublasDzasum_v2'>cublasDzasum_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasDznrm2_v2.html'
+                               title='cublas_sys::cublasDznrm2_v2'>cublasDznrm2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasGetAtomicsMode.html'
+                               title='cublas_sys::cublasGetAtomicsMode'>cublasGetAtomicsMode</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasGetMatrix.html'
+                               title='cublas_sys::cublasGetMatrix'>cublasGetMatrix</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasGetMatrixAsync.html'
+                               title='cublas_sys::cublasGetMatrixAsync'>cublasGetMatrixAsync</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasGetPointerMode_v2.html'
+                               title='cublas_sys::cublasGetPointerMode_v2'>cublasGetPointerMode_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasGetStream_v2.html'
+                               title='cublas_sys::cublasGetStream_v2'>cublasGetStream_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasGetVector.html'
+                               title='cublas_sys::cublasGetVector'>cublasGetVector</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasGetVectorAsync.html'
+                               title='cublas_sys::cublasGetVectorAsync'>cublasGetVectorAsync</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasGetVersion_v2.html'
+                               title='cublas_sys::cublasGetVersion_v2'>cublasGetVersion_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasHgemm.html'
+                               title='cublas_sys::cublasHgemm'>cublasHgemm</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasIcamax_v2.html'
+                               title='cublas_sys::cublasIcamax_v2'>cublasIcamax_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasIcamin_v2.html'
+                               title='cublas_sys::cublasIcamin_v2'>cublasIcamin_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasIdamax_v2.html'
+                               title='cublas_sys::cublasIdamax_v2'>cublasIdamax_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasIdamin_v2.html'
+                               title='cublas_sys::cublasIdamin_v2'>cublasIdamin_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasIsamax_v2.html'
+                               title='cublas_sys::cublasIsamax_v2'>cublasIsamax_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasIsamin_v2.html'
+                               title='cublas_sys::cublasIsamin_v2'>cublasIsamin_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasIzamax_v2.html'
+                               title='cublas_sys::cublasIzamax_v2'>cublasIzamax_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasIzamin_v2.html'
+                               title='cublas_sys::cublasIzamin_v2'>cublasIzamin_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSasum_v2.html'
+                               title='cublas_sys::cublasSasum_v2'>cublasSasum_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSaxpy_v2.html'
+                               title='cublas_sys::cublasSaxpy_v2'>cublasSaxpy_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasScasum_v2.html'
+                               title='cublas_sys::cublasScasum_v2'>cublasScasum_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasScnrm2_v2.html'
+                               title='cublas_sys::cublasScnrm2_v2'>cublasScnrm2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasScopy_v2.html'
+                               title='cublas_sys::cublasScopy_v2'>cublasScopy_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSdgmm.html'
+                               title='cublas_sys::cublasSdgmm'>cublasSdgmm</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSdot_v2.html'
+                               title='cublas_sys::cublasSdot_v2'>cublasSdot_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSetAtomicsMode.html'
+                               title='cublas_sys::cublasSetAtomicsMode'>cublasSetAtomicsMode</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSetMatrix.html'
+                               title='cublas_sys::cublasSetMatrix'>cublasSetMatrix</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSetMatrixAsync.html'
+                               title='cublas_sys::cublasSetMatrixAsync'>cublasSetMatrixAsync</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSetPointerMode_v2.html'
+                               title='cublas_sys::cublasSetPointerMode_v2'>cublasSetPointerMode_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSetStream_v2.html'
+                               title='cublas_sys::cublasSetStream_v2'>cublasSetStream_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSetVector.html'
+                               title='cublas_sys::cublasSetVector'>cublasSetVector</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSetVectorAsync.html'
+                               title='cublas_sys::cublasSetVectorAsync'>cublasSetVectorAsync</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSgbmv_v2.html'
+                               title='cublas_sys::cublasSgbmv_v2'>cublasSgbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSgeam.html'
+                               title='cublas_sys::cublasSgeam'>cublasSgeam</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSgelsBatched.html'
+                               title='cublas_sys::cublasSgelsBatched'>cublasSgelsBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSgemmBatched.html'
+                               title='cublas_sys::cublasSgemmBatched'>cublasSgemmBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSgemmEx.html'
+                               title='cublas_sys::cublasSgemmEx'>cublasSgemmEx</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSgemm_v2.html'
+                               title='cublas_sys::cublasSgemm_v2'>cublasSgemm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSgemv_v2.html'
+                               title='cublas_sys::cublasSgemv_v2'>cublasSgemv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSgeqrfBatched.html'
+                               title='cublas_sys::cublasSgeqrfBatched'>cublasSgeqrfBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSger_v2.html'
+                               title='cublas_sys::cublasSger_v2'>cublasSger_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSgetrfBatched.html'
+                               title='cublas_sys::cublasSgetrfBatched'>cublasSgetrfBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSgetriBatched.html'
+                               title='cublas_sys::cublasSgetriBatched'>cublasSgetriBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSgetrsBatched.html'
+                               title='cublas_sys::cublasSgetrsBatched'>cublasSgetrsBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSmatinvBatched.html'
+                               title='cublas_sys::cublasSmatinvBatched'>cublasSmatinvBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSnrm2_v2.html'
+                               title='cublas_sys::cublasSnrm2_v2'>cublasSnrm2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSrot_v2.html'
+                               title='cublas_sys::cublasSrot_v2'>cublasSrot_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSrotg_v2.html'
+                               title='cublas_sys::cublasSrotg_v2'>cublasSrotg_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSrotm_v2.html'
+                               title='cublas_sys::cublasSrotm_v2'>cublasSrotm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSrotmg_v2.html'
+                               title='cublas_sys::cublasSrotmg_v2'>cublasSrotmg_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSsbmv_v2.html'
+                               title='cublas_sys::cublasSsbmv_v2'>cublasSsbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSscal_v2.html'
+                               title='cublas_sys::cublasSscal_v2'>cublasSscal_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSspmv_v2.html'
+                               title='cublas_sys::cublasSspmv_v2'>cublasSspmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSspr2_v2.html'
+                               title='cublas_sys::cublasSspr2_v2'>cublasSspr2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSspr_v2.html'
+                               title='cublas_sys::cublasSspr_v2'>cublasSspr_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSswap_v2.html'
+                               title='cublas_sys::cublasSswap_v2'>cublasSswap_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSsymm_v2.html'
+                               title='cublas_sys::cublasSsymm_v2'>cublasSsymm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSsymv_v2.html'
+                               title='cublas_sys::cublasSsymv_v2'>cublasSsymv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSsyr2_v2.html'
+                               title='cublas_sys::cublasSsyr2_v2'>cublasSsyr2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSsyr2k_v2.html'
+                               title='cublas_sys::cublasSsyr2k_v2'>cublasSsyr2k_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSsyr_v2.html'
+                               title='cublas_sys::cublasSsyr_v2'>cublasSsyr_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSsyrk_v2.html'
+                               title='cublas_sys::cublasSsyrk_v2'>cublasSsyrk_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasSsyrkx.html'
+                               title='cublas_sys::cublasSsyrkx'>cublasSsyrkx</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasStbmv_v2.html'
+                               title='cublas_sys::cublasStbmv_v2'>cublasStbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasStbsv_v2.html'
+                               title='cublas_sys::cublasStbsv_v2'>cublasStbsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasStpmv_v2.html'
+                               title='cublas_sys::cublasStpmv_v2'>cublasStpmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasStpsv_v2.html'
+                               title='cublas_sys::cublasStpsv_v2'>cublasStpsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasStpttr.html'
+                               title='cublas_sys::cublasStpttr'>cublasStpttr</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasStrmm_v2.html'
+                               title='cublas_sys::cublasStrmm_v2'>cublasStrmm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasStrmv_v2.html'
+                               title='cublas_sys::cublasStrmv_v2'>cublasStrmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasStrsmBatched.html'
+                               title='cublas_sys::cublasStrsmBatched'>cublasStrsmBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasStrsm_v2.html'
+                               title='cublas_sys::cublasStrsm_v2'>cublasStrsm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasStrsv_v2.html'
+                               title='cublas_sys::cublasStrsv_v2'>cublasStrsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasStrttp.html'
+                               title='cublas_sys::cublasStrttp'>cublasStrttp</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasXerbla.html'
+                               title='cublas_sys::cublasXerbla'>cublasXerbla</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZaxpy_v2.html'
+                               title='cublas_sys::cublasZaxpy_v2'>cublasZaxpy_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZcopy_v2.html'
+                               title='cublas_sys::cublasZcopy_v2'>cublasZcopy_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZdgmm.html'
+                               title='cublas_sys::cublasZdgmm'>cublasZdgmm</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZdotc_v2.html'
+                               title='cublas_sys::cublasZdotc_v2'>cublasZdotc_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZdotu_v2.html'
+                               title='cublas_sys::cublasZdotu_v2'>cublasZdotu_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZdrot_v2.html'
+                               title='cublas_sys::cublasZdrot_v2'>cublasZdrot_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZdscal_v2.html'
+                               title='cublas_sys::cublasZdscal_v2'>cublasZdscal_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgbmv_v2.html'
+                               title='cublas_sys::cublasZgbmv_v2'>cublasZgbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgeam.html'
+                               title='cublas_sys::cublasZgeam'>cublasZgeam</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgelsBatched.html'
+                               title='cublas_sys::cublasZgelsBatched'>cublasZgelsBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgemmBatched.html'
+                               title='cublas_sys::cublasZgemmBatched'>cublasZgemmBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgemm_v2.html'
+                               title='cublas_sys::cublasZgemm_v2'>cublasZgemm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgemv_v2.html'
+                               title='cublas_sys::cublasZgemv_v2'>cublasZgemv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgeqrfBatched.html'
+                               title='cublas_sys::cublasZgeqrfBatched'>cublasZgeqrfBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgerc_v2.html'
+                               title='cublas_sys::cublasZgerc_v2'>cublasZgerc_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgeru_v2.html'
+                               title='cublas_sys::cublasZgeru_v2'>cublasZgeru_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgetrfBatched.html'
+                               title='cublas_sys::cublasZgetrfBatched'>cublasZgetrfBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgetriBatched.html'
+                               title='cublas_sys::cublasZgetriBatched'>cublasZgetriBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZgetrsBatched.html'
+                               title='cublas_sys::cublasZgetrsBatched'>cublasZgetrsBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZhbmv_v2.html'
+                               title='cublas_sys::cublasZhbmv_v2'>cublasZhbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZhemm_v2.html'
+                               title='cublas_sys::cublasZhemm_v2'>cublasZhemm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZhemv_v2.html'
+                               title='cublas_sys::cublasZhemv_v2'>cublasZhemv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZher2_v2.html'
+                               title='cublas_sys::cublasZher2_v2'>cublasZher2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZher2k_v2.html'
+                               title='cublas_sys::cublasZher2k_v2'>cublasZher2k_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZher_v2.html'
+                               title='cublas_sys::cublasZher_v2'>cublasZher_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZherk_v2.html'
+                               title='cublas_sys::cublasZherk_v2'>cublasZherk_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZherkx.html'
+                               title='cublas_sys::cublasZherkx'>cublasZherkx</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZhpmv_v2.html'
+                               title='cublas_sys::cublasZhpmv_v2'>cublasZhpmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZhpr2_v2.html'
+                               title='cublas_sys::cublasZhpr2_v2'>cublasZhpr2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZhpr_v2.html'
+                               title='cublas_sys::cublasZhpr_v2'>cublasZhpr_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZmatinvBatched.html'
+                               title='cublas_sys::cublasZmatinvBatched'>cublasZmatinvBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZrot_v2.html'
+                               title='cublas_sys::cublasZrot_v2'>cublasZrot_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZrotg_v2.html'
+                               title='cublas_sys::cublasZrotg_v2'>cublasZrotg_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZscal_v2.html'
+                               title='cublas_sys::cublasZscal_v2'>cublasZscal_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZswap_v2.html'
+                               title='cublas_sys::cublasZswap_v2'>cublasZswap_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZsymm_v2.html'
+                               title='cublas_sys::cublasZsymm_v2'>cublasZsymm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZsymv_v2.html'
+                               title='cublas_sys::cublasZsymv_v2'>cublasZsymv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZsyr2_v2.html'
+                               title='cublas_sys::cublasZsyr2_v2'>cublasZsyr2_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZsyr2k_v2.html'
+                               title='cublas_sys::cublasZsyr2k_v2'>cublasZsyr2k_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZsyr_v2.html'
+                               title='cublas_sys::cublasZsyr_v2'>cublasZsyr_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZsyrk_v2.html'
+                               title='cublas_sys::cublasZsyrk_v2'>cublasZsyrk_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZsyrkx.html'
+                               title='cublas_sys::cublasZsyrkx'>cublasZsyrkx</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZtbmv_v2.html'
+                               title='cublas_sys::cublasZtbmv_v2'>cublasZtbmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZtbsv_v2.html'
+                               title='cublas_sys::cublasZtbsv_v2'>cublasZtbsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZtpmv_v2.html'
+                               title='cublas_sys::cublasZtpmv_v2'>cublasZtpmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZtpsv_v2.html'
+                               title='cublas_sys::cublasZtpsv_v2'>cublasZtpsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZtpttr.html'
+                               title='cublas_sys::cublasZtpttr'>cublasZtpttr</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZtrmm_v2.html'
+                               title='cublas_sys::cublasZtrmm_v2'>cublasZtrmm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZtrmv_v2.html'
+                               title='cublas_sys::cublasZtrmv_v2'>cublasZtrmv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZtrsmBatched.html'
+                               title='cublas_sys::cublasZtrsmBatched'>cublasZtrsmBatched</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZtrsm_v2.html'
+                               title='cublas_sys::cublasZtrsm_v2'>cublasZtrsm_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZtrsv_v2.html'
+                               title='cublas_sys::cublasZtrsv_v2'>cublasZtrsv_v2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='fn' href='fn.cublasZtrttp.html'
+                               title='cublas_sys::cublasZtrttp'>cublasZtrttp</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                </table><h2 id='types' class='section-header'><a href="#types">Type Definitions</a></h2>
+<table>
+                    <tr class=' module-item'>
+                        <td><a class='type' href='type.__half.html'
+                               title='cublas_sys::__half'>__half</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='type' href='type.cuComplex.html'
+                               title='cublas_sys::cuComplex'>cuComplex</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='type' href='type.cuDoubleComplex.html'
+                               title='cublas_sys::cuDoubleComplex'>cuDoubleComplex</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='type' href='type.cuFloatComplex.html'
+                               title='cublas_sys::cuFloatComplex'>cuFloatComplex</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='type' href='type.cublasHandle_t.html'
+                               title='cublas_sys::cublasHandle_t'>cublasHandle_t</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='type' href='type.cudaStream_t.html'
+                               title='cublas_sys::cudaStream_t'>cudaStream_t</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='type' href='type.double2.html'
+                               title='cublas_sys::double2'>double2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='type' href='type.float2.html'
+                               title='cublas_sys::float2'>float2</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                
+                    <tr class=' module-item'>
+                        <td><a class='type' href='type.size_t.html'
+                               title='cublas_sys::size_t'>size_t</a></td>
+                        <td class='docblock short'>
+                             
+                        </td>
+                    </tr>
+                </table></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../";
+        window.currentCrate = "cublas_sys";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../jquery.js"></script>
+    <script src="../main.js"></script>
+    
+    <script defer src="../search-index.js"></script>
+</body>
+</html>
