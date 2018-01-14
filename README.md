@@ -22,7 +22,6 @@ For more information,
 [rust-cuda]: https://github.com/autumnai/rust-cuda
 [collenchyma]: https://github.com/autumnai/collenchyma
 [plugin]: https://github.com/autumnai/collenchyma-blas
-[autumn]: http://autumnai.com
 [leaf]: https://github.com/autumnai/leaf
 [twitter-autumn]: https://twitter.com/autumn_eng
 
